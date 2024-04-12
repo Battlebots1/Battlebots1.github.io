@@ -1,8 +1,6 @@
-# Battlebots1.github.io
-<!DOCTYPE html>
 <html>
 <head>
-    <title>Rules</title>
+    <p>Rules</p>
     <style>
         body {
             font-family: Arial, sans-serif;
