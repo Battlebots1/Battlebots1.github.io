@@ -68,11 +68,11 @@
 			<p>2kg</p>
 			<h2>Size Limit</h2>
 			<p>30cm x 30cm x 20cm</p>
-			<h2>Penalties</h2>
+			<h2>Winning condisions</h2>
 			<ul>
-				<li>The bot cannot move for 10 seconds</li>
-				<li>A marker is completely destroyed</li>
-				<li>The bot goes out of bounds</li>
+				<li>The opopponent cannot move for 10 seconds</li>
+				<li>The marker of the opopponent is completely destroyed</li>
+				<li>The opopponent's bot goes out of bounds</li>
 			</ul>
 		</div>
 		<div class="footer">
