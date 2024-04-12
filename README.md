@@ -1,68 +1,83 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Example HTML5 Document</title>
+	<title>Rules</title>
 	<style>
 		body {
 			font-family: Arial, sans-serif;
-		}
-		header, nav, main, footer {
-			padding: 20px;
-			box-sizing: border-box;
-		}
-		header, footer {
-			background-color: #f8f9fa;
-			text-align: center;
-		}
-		nav ul {
-			list-style-type: none;
+	margin: 0;
 			padding: 0;
-			display: flex;
-			justify-content: space-around;
+			background-color: #f5f5f5;
 		}
-		nav a {
-			text-decoration: none;
-			color: #007bff;
-		}
-		main {
-			display: flex;
-			justify-content: space-around;
-		}
-		canvas {
-			border: 1px solid black;
-		}
-		audio, video {
-			display: block;
+
+		.container {
+			width: 80%;
 			margin: 0 auto;
+			padding: 20px;
+		}
+
+		.header {
+			text-align: center;
+			margin-bottom: 30px;
+		}
+
+		.content {
+			margin-bottom: 20px;
+		}
+
+		h2 {
+			margin: 0;
+			padding: 0;
+			margin-bottom: 10px;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		li {
+			margin-bottom: 5px;
+		}
+
+		.footer {
+			text-align: center;
+			margin-top: 30px;
+			font-size: 12px;
 		}
 	</style>
 </head>
 <body>
-	<header>
-		<h1>Welcome to My Website</h1>
-	</header>
-	<nav>
-		<ul>
-			<li><a href="#">Home</a></li>
-		for website <br> <br> For a website, we need to have a structure that includes the main elements such as header, 
-		<li><a href="#">About</a></li> 
-		<li><a href="#">Contact</a></li>
-		</ul>
-	</nav>
-	<main>
-		<div>
-			<h2>Content 1</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum, ante et elementum cursus, quam dolor vestibulum velit, vel consequat eros lorem et dui.</p>
+	<div class="container">
+		<div class="header">
+			<h1>Rules</h1>
 		</div>
-		<div>
-			<h2>Content 2</h2>
-			<p>Curabitur vitae eros eu nisl fermentum ullamcorper vel id ex. Integer convallis justo quis sem posuere, non interdum est consequat. Sed sit amet nibh vel nibh fermentum pharetra.</p>
+		<div class="content">
+			<h2>Restrictions on Weapons</h2>
+			<ul>
+				<li>Explosives</li>
+				<li>Projectiles greater than HMS caliber</li>
+				<li>Flamethrowers</li>
+				<li>Water</li>
+				<li>Dust, sand, and powder</li>
+				<li>Radio interference</li>
+				<li>Nets that immobilize</li>
+			</ul>
+			<h2>Weight Limit</h2>
+			<p>2kg</p>
+			<h2>Size Limit</h2>
+			<p>30cm x 30cm x 20cm</p>
+			<h2>Penalties</h2>
+			<ul>
+				<li>The bot cannot move for 10 seconds</li>
+				<li>A marker is completely destroyed</li>
+				<li>The bot goes out of bounds</li>
+			</ul>
 		</div>
-	</main>
-	<footer>
-		<p>Copyright © 2023 My Website</p>
-	</footer>
+		<div class="footer">
+			<p>Last updated on March 31, 2023</p>
+		</div>
+	</div>
 </body>
 </html>
